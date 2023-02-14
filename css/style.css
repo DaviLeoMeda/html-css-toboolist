@@ -1,14 +1,94 @@
+/* utilities */
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Corpo centrale */
+
 header{
     height: 100px;
+    background-color: #fff;
+    margin: 0;
+}
+
+.testa{
+    padding: 20px;
 }
 
 .logo{
     vertical-align: middle;
     font-size: 40px;
 }
+
+body{
+    background-color: #f6f8f9;
+}
+
+main{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.sezione1{
+    height: 55px;
+    margin-top: 50px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.testo{
+    margin-left: 20px;
+}
+
+.bottone{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.primo{
+    background-color: #47adf1;
+    color: #fff;
+    border: none;
+}
+
+.secondo{
+    background-color: #fff;
+    color: #47adf1;
+    border: 1px solid lightskyblue;
+}
+
+.sezione2{
+    height: 300px;
+    margin-top: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+li{
+    padding-top: 20px;
+}
+
+.spaziatura{
+    margin-top: 40px;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+.prima::before{
+    content: "\25bc     ";
+}
+
+.circle{
+    color: lightgreen;
+    border: 1px solid lightgreen;
+    padding: 5px 8px;
+    border-radius: 50%;
+}
+
