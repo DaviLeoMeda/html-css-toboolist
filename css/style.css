@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 100px;
+    background-color: #f6f8f9;
+}
+
+#logo{
+    vertical-align: middle;
+}
