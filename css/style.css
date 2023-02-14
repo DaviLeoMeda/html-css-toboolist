@@ -32,6 +32,8 @@ main{
     margin: 0 auto;
 }
 
+/* Spaziature per creare gabbia sezione */
+
 .sezione1{
     margin-top: 50px;
     background-color: #fff;
@@ -48,6 +50,8 @@ main{
 div{
     margin-left: 20px;
 }
+
+/* Bottoni */
 
 .bottone{
     margin-top: 10px;
@@ -69,6 +73,8 @@ div{
 }
 
 
+/* Liste e loro spazi */
+
 li{
     padding-top: 20px;
 }
@@ -81,21 +87,79 @@ ul li{
     list-style-type: none;
 }
 
+/* Before con freccia titoli */
+
 .prima::before{
     content: "\25bc     ";
 }
 
-.circle{
-    color: lightgreen;
+/* Before con Before x o v */
+
+.v::before{
+    content: "\2713";
     border: 1px solid lightgreen;
-    padding: 5px 8px;
+    padding: 2px;
+    color: lightgreen;
     border-radius: 50%;
 }
 
-.denied{
-    color: red;
+.x::before{
+    content: "\2715";
     border: 1px solid red;
-    padding: 5px 8px;
+    padding: 2px;
+    color: red;
     border-radius: 50%;
 }
 
+/* Sezione After con classificazioni */
+
+
+.editorial::after{
+    content: "Editorial";
+    background-color: rgb(71,173,241);
+    padding: 2px 4px;
+    color: #fff;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+.goal::after{
+    content: "Q1 Goals";
+    background-color: rgb(156,114,228);
+    padding: 2px 4px;
+    color: #fff;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+.recru::after{
+    content: "Recruiting";
+    background-color: rgb(100,192,169);
+    padding: 2px 4px;
+    color: #fff;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+.mobile::after{
+    content: "Mobile";
+    background-color: rgb(242,158,51);
+    padding: 2px 4px;
+    color: #fff;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+.website::after{
+    content: "Website";
+    background-color: rgb(216,99,161);
+    padding: 2px 4px;
+    color: #fff;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+.sales::after{
+    content: "Sales";
+    background-color: rgb(176,201,38);
+    padding: 2px 4px;
+    color: #fff;
+    border-radius: 5px;
+    margin-left: 5px;
+}
